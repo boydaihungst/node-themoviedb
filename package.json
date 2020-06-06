@@ -18,7 +18,7 @@
     "got": "^11.1.4"
   },
   "scripts": {
-    "prepack": "del-cli dist && tsc",
+    "prepare": "yarn build",
     "build": "del-cli dist && tsc",
     "test": "echo \"No test specified\"",
     "release": "yarn build && np",
